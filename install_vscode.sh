@@ -2,6 +2,7 @@
 
 # /home/ec2-user/anaconda3/envs/JupyterSystemEnv/bin/pip install -U keytar jupyter-server-proxy
 echo == INSTALLING CODE-SERVER ==
+export HOME=/home/ec2-user
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --version=4.14.1  # https://github.com/coder/code-server/releases
 
 #########################################
