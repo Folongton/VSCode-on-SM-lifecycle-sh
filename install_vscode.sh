@@ -26,4 +26,4 @@ EOC
 
 echo == INSTALL SUCCESSFUL. RESTARTING JUPYTER ==
 # RESTART THE JUPYTER SERVER
-systemctl restart jupyter-server
+sudo systemctl restart jupyter-server
