@@ -1,6 +1,7 @@
 echo == INSTALLING CODE-SERVER ==
 export HOME=/home/ec2-user
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --version=4.15.0  # https://github.com/coder/code-server/releases
+# So far Amazon 2 Linux only has GLIBC version of 2.26 and we can't run code-server > 4.15.0
 
 #########################################
 ### INTEGRATE CODE-SERVER WITH JUPYTER
