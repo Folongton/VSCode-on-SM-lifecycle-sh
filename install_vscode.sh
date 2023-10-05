@@ -1,6 +1,6 @@
 echo == INSTALLING CODE-SERVER ==
 export HOME=/home/ec2-user
-curl -fsSL https://code-server.dev/install.sh | sh -s -- --version=4.17.0  # https://github.com/coder/code-server/releases
+curl -fsSL https://code-server.dev/install.sh | sh -s -- --version=4.15.0  # https://github.com/coder/code-server/releases
 
 #########################################
 ### INTEGRATE CODE-SERVER WITH JUPYTER
